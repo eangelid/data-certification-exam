@@ -1,6 +1,6 @@
 {
     "MEDIAN_AGE": "\nThe median age is associated with a positive effect (increase) on the number of crime incidents.\n",
-    "T_STAT": "\n\n",
+    "T_STAT": "\nt-statistic is the coefficient of the feature divided by the std error. \nt-statistic for median age = 1.820\n",
     "P_VALUE": "\nThe p-value shows how confident we can be that the median age is important for the number of incidents. The closer to 0 the more confident.\nThere is a 12.8% probability that the median_age is not correlated to the number of incidents. Its effect is statistically significant as 95% and 90%\n",
     "INCREASE": "\nHolding all other regressors constant, in we increase the families with a married couple by 1%, the number of incidents will decrease by -2115.1839\n",
     "LIMITATIONS": "\nThe main limitation is that we have a very small sample size: Only the 12 districts of Boston. As a result we do not have enough information so that the model can generalise \n\nOther reasons may include:\n* High-correlation\n* Multicollinearity\n* Combined too many parameters\n* Combined together districts that may not be related\n\nTo improve results it could help to\n* Examine districts one-by-one\n* Examine incidents withou grouping by district but by indicators\n"
